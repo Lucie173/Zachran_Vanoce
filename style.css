@@ -12,7 +12,7 @@ h1 {
 
 #hra {
     position: relative;
-    margin: 0 auto;
+    margin: auto;
     width: 900px;
     height: 600px;
     background-image: url("obrázky/pozadi.png");

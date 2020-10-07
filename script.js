@@ -15,3 +15,12 @@ let sane = {
     vyska: 104,
     rychlost: 3
 }
+
+function umistiObjekt (herniObjekt) {
+    herniObjekt.element.style.left = herniObjekt.x + 'px';
+    herniObjekt.element.style.top = herniObjekt.y + 'px';
+
+}
+robot.x = 50;
+robot.y = 200,
+umistiObjekt(robot);
