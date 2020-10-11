@@ -28,3 +28,15 @@ function umistiObjekt (herniObjekt) {
 //umistiObjekt(robot);
 
 
+window.addEventListener("load", startHry);
+
+function startHry () {
+    document.addEventListener ("keydown", priStiskuKlavesy);
+    umistiObjekt (robot);
+    umistiObjekt (sane);
+}
+
+function priStiskuKlavesy () {
+    robot.x = robot.x + 5;
+    umistiObjekt(robot);
+}
