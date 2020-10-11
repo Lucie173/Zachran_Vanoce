@@ -21,6 +21,10 @@ function umistiObjekt (herniObjekt) {
     herniObjekt.element.style.top = herniObjekt.y + 'px';
 
 }
-robot.x = 50;
-robot.y = 200,
-umistiObjekt(robot);
+
+
+//robot.x = 50;
+//robot.y = 200,
+//umistiObjekt(robot);
+
+
